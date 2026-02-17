@@ -5,7 +5,9 @@ namespace App\Livewire\Motos;
 use Livewire\Component;
 use App\Models\Moto;
 use Livewire\WithPagination;
+use Livewire\Attributes\Layout;
 
+#[Layout('layouts.demo')]
 class MotoList extends Component
 {
     use WithPagination;

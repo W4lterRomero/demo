@@ -25,6 +25,7 @@ Route::middleware([
 
     // Paquete Completo Routes (Placeholders)
     Route::get('/motos', \App\Livewire\Motos\MotoList::class)->name('motos');
+    Route::get('/moto-maintenance', \App\Livewire\Motos\MotoMaintenance::class)->name('moto-maintenance');
     Route::get('/events', fn() => \Livewire\Livewire::mount('placeholder', ['title' => 'Gestión de Eventos']))->name('events');
     Route::get('/invoices', fn() => \Livewire\Livewire::mount('placeholder', ['title' => 'Facturación Electrónica']))->name('invoices');
     Route::get('/users', fn() => \Livewire\Livewire::mount('placeholder', ['title' => 'Gestión de Usuarios']))->name('users');

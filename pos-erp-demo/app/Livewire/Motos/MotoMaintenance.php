@@ -6,7 +6,9 @@ use Livewire\Component;
 use App\Models\MotoMaintenance as MaintenanceModel;
 use App\Models\Moto;
 use Livewire\WithPagination;
+use Livewire\Attributes\Layout;
 
+#[Layout('layouts.demo')]
 class MotoMaintenance extends Component
 {
     use WithPagination;

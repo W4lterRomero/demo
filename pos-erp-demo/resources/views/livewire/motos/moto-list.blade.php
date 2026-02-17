@@ -32,6 +32,9 @@
                 <option value="en_uso">En Uso</option>
                 <option value="mantenimiento">Mantenimiento</option>
             </select>
+            <a href="{{ route('moto-maintenance') }}" class="bg-white text-gray-700 border border-gray-300 px-4 py-2 rounded-md hover:bg-gray-50 text-sm font-medium flex items-center gap-2">
+                <x-app-icon name="wrench-screwdriver" class="w-4 h-4"/> Bitácora
+            </a>
             <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 text-sm font-medium flex items-center gap-2">
                 <x-app-icon name="plus" class="w-4 h-4"/> Nueva Unidad
             </button>
