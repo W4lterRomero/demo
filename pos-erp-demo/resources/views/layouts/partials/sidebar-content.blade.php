@@ -58,7 +58,7 @@
                                 @if ($isDisabled)
                                     <div class="{{ $baseClasses }} {{ $disabledClasses }}" title="Disponible en paquete {{ $item['level'] == 2 ? 'Completo' : 'Premium' }}">
                                         {{-- Icon Placeholder --}}
-                                        <x-icon :name="$item['icon']" class="w-6 h-6 shrink-0" />
+                                        <x-app-icon :name="$item['icon']" class="w-6 h-6 shrink-0" />
                                         {{ $item['label'] }}
                                         <span class="ml-auto w-4 h-4 text-gray-600">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
@@ -68,7 +68,7 @@
                                     </div>
                                 @else
                                     <a href="{{ Route::has($item['route']) ? route($item['route']) : '#' }}" class="{{ $baseClasses }} {{ $isActive ? $activeClasses : $inactiveClasses }}">
-                                        <x-icon :name="$item['icon']" class="w-6 h-6 shrink-0" />
+                                        <x-app-icon :name="$item['icon']" class="w-6 h-6 shrink-0" />
                                         {{ $item['label'] }}
                                     </a>
                                 @endif

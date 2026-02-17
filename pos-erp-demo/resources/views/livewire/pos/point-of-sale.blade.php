@@ -50,7 +50,7 @@
     <div class="w-full md:w-96 bg-white rounded-lg shadow flex flex-col h-[40vh] md:h-full">
         <div class="p-4 border-b bg-gray-50 rounded-t-lg">
             <h2 class="text-lg font-bold text-gray-900 flex items-center gap-2">
-                <x-icon name="shopping-cart" class="h-5 w-5 text-blue-600"/> Current Order
+                <x-app-icon name="shopping-cart" class="h-5 w-5 text-blue-600"/> Current Order
             </h2>
         </div>
 
@@ -76,7 +76,7 @@
                 </div>
             @empty
                 <div class="text-center py-10 text-gray-400 flex flex-col items-center">
-                    <x-icon name="shopping-cart" class="w-12 h-12 mb-2 opacity-20"/>
+                    <x-app-icon name="shopping-cart" class="w-12 h-12 mb-2 opacity-20"/>
                     <p>El carrito está vacío</p>
                 </div>
             @endforelse
@@ -116,7 +116,7 @@
                     <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                         <div class="sm:flex sm:items-start">
                             <div class="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 sm:mx-0 sm:h-10 sm:w-10">
-                                <x-icon name="currency-dollar" class="h-6 w-6 text-green-600"/>
+                                <x-app-icon name="currency-dollar" class="h-6 w-6 text-green-600"/>
                             </div>
                             <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left w-full">
                                 <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-title">Finalizar Venta</h3>

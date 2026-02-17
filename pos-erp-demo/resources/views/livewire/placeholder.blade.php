@@ -1,6 +1,6 @@
 <div class="text-center py-20">
     <div class="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gray-100 mb-6">
-        <x-icon name="cog-8-tooth" class="w-12 h-12 text-gray-400 animate-spin-slow" />
+        <x-app-icon name="cog-8-tooth" class="w-12 h-12 text-gray-400 animate-spin-slow" />
     </div>
     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ $title }}</h2>
     <p class="mt-4 text-lg leading-6 text-gray-500">{{ $message }}</p>

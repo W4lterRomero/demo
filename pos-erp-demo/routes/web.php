@@ -6,7 +6,7 @@ use App\Http\Controllers\DemoController;
 
 Route::get('/', function () {
     return view('landing');
-});
+})->name('login');
 
 Route::get('/demo/{package}', [DemoController::class, 'login'])->name('demo.login');
 Route::get('/logout', [DemoController::class, 'logout'])->name('demo.logout');
@@ -24,7 +24,7 @@ Route::middleware([
     Route::get('/cash-close', \App\Livewire\CashRegister\CashClose::class)->name('cash-close');
 
     // Paquete Completo Routes (Placeholders)
-    Route::get('/motos', fn() => \Livewire\Livewire::mount('placeholder', ['title' => 'Gestión de Cuatrimotos']))->name('motos');
+    Route::get('/motos', \App\Livewire\Motos\MotoList::class)->name('motos');
     Route::get('/events', fn() => \Livewire\Livewire::mount('placeholder', ['title' => 'Gestión de Eventos']))->name('events');
     Route::get('/invoices', fn() => \Livewire\Livewire::mount('placeholder', ['title' => 'Facturación Electrónica']))->name('invoices');
     Route::get('/users', fn() => \Livewire\Livewire::mount('placeholder', ['title' => 'Gestión de Usuarios']))->name('users');

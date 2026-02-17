@@ -73,7 +73,7 @@
 
              <div class="mt-8 p-4 bg-purple-50 border border-purple-200 rounded-md">
                 <h3 class="text-purple-800 font-bold flex items-center gap-2">
-                    <x-icon name="information-circle" class="w-5 h-5"/> Módulos Activos
+                    <x-app-icon name="information-circle" class="w-5 h-5"/> Módulos Activos
                 </h3>
                 <p class="text-purple-600 mt-1">Explore los menús de "Cuatrimotos", "Eventos" y "Facturación" para ver las interfaces (placeholders).</p>
             </div>
@@ -89,11 +89,11 @@
             <!-- KPI Cards -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div class="bg-gray-900 text-white rounded-xl p-6 shadow-lg relative overflow-hidden">
-                    <div class="absolute top-0 right-0 p-4 opacity-10"><x-icon name="currency-dollar" class="w-24 h-24"/></div>
+                    <div class="absolute top-0 right-0 p-4 opacity-10"><x-app-icon name="currency-dollar" class="w-24 h-24"/></div>
                     <div class="text-gray-400 text-sm uppercase tracking-wider">Utilidad Neta (Mes)</div>
                     <div class="text-4xl font-bold mt-2">$4,250.00</div>
                     <div class="mt-4 flex items-center text-green-400 text-sm">
-                        <x-icon name="arrow-trending-up" class="w-4 h-4 mr-1"/>
+                        <x-app-icon name="arrow-trending-up" class="w-4 h-4 mr-1"/>
                         +18.5% vs mes anterior
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                      <div class="text-gray-500 text-sm uppercase tracking-wider">Cash Flow (Proyección)</div>
                     <div class="text-4xl font-bold mt-2 text-gray-900">$12.5k</div>
                      <div class="mt-4 flex items-center text-green-600 text-sm">
-                        <x-icon name="check-circle" class="w-4 h-4 mr-1"/>
+                        <x-app-icon name="check-circle" class="w-4 h-4 mr-1"/>
                         Salud Financiera Óptima
                     </div>
                 </div>
@@ -118,7 +118,7 @@
             <!-- AI Insights -->
             <div class="bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl p-6 border border-indigo-100 mb-8">
                 <h3 class="font-bold text-indigo-900 mb-3 flex items-center">
-                    <x-icon name="sparkles" class="w-5 h-5 mr-2 text-indigo-600"/>
+                    <x-app-icon name="sparkles" class="w-5 h-5 mr-2 text-indigo-600"/>
                     Insights de Inteligencia Artificial
                 </h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -134,7 +134,7 @@
             <!-- Placeholder Message -->
              <div class="mt-8 p-4 bg-amber-50 border border-amber-200 rounded-md">
                 <h3 class="text-amber-800 font-bold flex items-center gap-2">
-                    <x-icon name="lock-open" class="w-5 h-5"/> Acceso Total
+                    <x-app-icon name="lock-open" class="w-5 h-5"/> Acceso Total
                 </h3>
                 <p class="text-amber-600 mt-1">Explore los módulos de Inteligencia de Negocios, Auditoría y Automatizaciones en el menú.</p>
             </div>

@@ -11,7 +11,7 @@
             <div class="p-5">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <x-icon name="currency-dollar" class="h-6 w-6 text-gray-400" />
+                        <x-app-icon name="currency-dollar" class="h-6 w-6 text-gray-400" />
                     </div>
                     <div class="ml-5 w-0 flex-1">
                         <dl>
@@ -35,7 +35,7 @@
             <div class="p-5">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <x-icon name="shopping-cart" class="h-6 w-6 text-gray-400" />
+                        <x-app-icon name="shopping-cart" class="h-6 w-6 text-gray-400" />
                     </div>
                     <div class="ml-5 w-0 flex-1">
                         <dl>
@@ -59,7 +59,7 @@
             <div class="p-5">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <x-icon name="chart-bar" class="h-6 w-6 text-gray-400" />
+                        <x-app-icon name="chart-bar" class="h-6 w-6 text-gray-400" />
                     </div>
                     <div class="ml-5 w-0 flex-1">
                         <dl>
@@ -80,7 +80,7 @@
         <a href="{{ route('pos') }}" class="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2 hover:border-gray-400">
             <div class="flex-shrink-0">
                 <span class="inline-flex items-center justify-center h-10 w-10 rounded-full bg-blue-100 ring-4 ring-white">
-                    <x-icon name="shopping-cart" class="h-6 w-6 text-blue-600" />
+                    <x-app-icon name="shopping-cart" class="h-6 w-6 text-blue-600" />
                 </span>
             </div>
             <div class="min-w-0 flex-1">
@@ -93,7 +93,7 @@
         <a href="{{ route('cash-close') }}" class="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-blue-500 focus-within:ring-offset-2 hover:border-gray-400">
             <div class="flex-shrink-0">
                 <span class="inline-flex items-center justify-center h-10 w-10 rounded-full bg-green-100 ring-4 ring-white">
-                    <x-icon name="currency-dollar" class="h-6 w-6 text-green-600" />
+                    <x-app-icon name="currency-dollar" class="h-6 w-6 text-green-600" />
                 </span>
             </div>
             <div class="min-w-0 flex-1">

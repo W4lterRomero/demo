@@ -9,7 +9,7 @@
         <div class="rounded-md bg-green-50 p-4 shadow mb-6">
             <div class="flex">
                 <div class="flex-shrink-0">
-                    <x-icon name="shield-check" class="h-5 w-5 text-green-400" />
+                    <x-app-icon name="shield-check" class="h-5 w-5 text-green-400" />
                 </div>
                 <div class="ml-3">
                     <h3 class="text-sm font-medium text-green-800">Caja cerrada exitosamente</h3>

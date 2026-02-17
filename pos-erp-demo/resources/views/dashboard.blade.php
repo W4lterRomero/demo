@@ -9,7 +9,7 @@
         <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
             <div class="flex">
                 <div class="flex-shrink-0">
-                    <x-icon name="light-bulb" class="h-5 w-5 text-blue-400" />
+                    <x-app-icon name="light-bulb" class="h-5 w-5 text-blue-400" />
                 </div>
                 <div class="ml-3">
                     <p class="text-sm text-blue-700">
@@ -28,7 +28,7 @@
                 <div class="p-5">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <x-icon name="currency-dollar" class="h-6 w-6 text-gray-400" />
+                            <x-app-icon name="currency-dollar" class="h-6 w-6 text-gray-400" />
                         </div>
                         <div class="ml-5 w-0 flex-1">
                             <dl>
@@ -52,7 +52,7 @@
                 <div class="p-5">
                     <div class="flex items-center">
                         <div class="flex-shrink-0">
-                            <x-icon name="shopping-cart" class="h-6 w-6 text-gray-400" />
+                            <x-app-icon name="shopping-cart" class="h-6 w-6 text-gray-400" />
                         </div>
                         <div class="ml-5 w-0 flex-1">
                             <dl>

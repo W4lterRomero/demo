@@ -58,7 +58,7 @@
                             <div class="mt-2 flex justify-between">
                                 <div class="sm:flex">
                                     <div class="flex items-center text-sm text-gray-500">
-                                        <x-icon name="currency-dollar" class="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" />
+                                        <x-app-icon name="currency-dollar" class="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400" />
                                         ${{ number_format($item->total_amount, 2) }} generado
                                     </div>
                                 </div>
