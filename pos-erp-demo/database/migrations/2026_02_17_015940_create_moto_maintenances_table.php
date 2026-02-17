@@ -1,0 +1,26 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('moto_maintenances', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('moto_id')->constrained('motos')->cascadeOnDelete();
+            $table->enum('type', ['aceite', 'frenos', 'llantas', 'general']);
+            $table->date('scheduled_date');
+            $table->timestamp('completed_at')->nullable();
+            $table->text('notes')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('moto_maintenances');
+    }
+};
